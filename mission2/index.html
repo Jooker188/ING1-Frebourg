@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ma page de test</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Roboto:400");
+        body{
+            background-color: rgb(161, 138, 187);
+            font-family: Roboto, sans-serif;
+        }
+        .center{
+            text-align:center;
+        }
+        #sectors1, #sectors2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #sector1, #sector3{
+            padding-right: 5rem;
+        }
+        .marginLeft{
+            margin-left: 12rem;
+        }
+        .img{
+            border-radius: 5%;
+            width: 600px;
+            height: 400px;
+        }
+        .img:hover{
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
+        .menu {
+            background-color: rgb(161, 138, 187);
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            border-radius: 25%;
+            }
+        .menu li {
+            list-style-type: none;
+            flex-basis: 120px;
+            text-align: center;
+            margin: 0 0.3rem;
+            }
+        .menu a {
+            display: block;
+            padding: 0.5rem;
+            background-color: rgb(49, 135, 175);
+            text-decoration: none;
+            color: #111;
+            border-bottom: 3px solid #333;
+            }
+            .menu a.active {
+                color: #00b5a9;
+                background-color: #e3fffd;
+                border-color: #00b5a9;
+            }
+            .menu a:hover {
+            color: #9e7f02;
+            background-color: #f5e49f;
+            border-color: #9e7f02;
+            }
+    </style>
+  </head>
+  <body>
+      <h1 class="center">Hub Tickets</h1>
+      <ul class="menu">
+        <li><a href="#" class="active">HomePage</a></li>
+        <li><a href="http://localhost/wordpress">Cy Zoo</a></li>
+        <li><a href="formTicket.html">My Ticket</a></li>
+      </ul>
+      <p class="marginLeft">The Cy Zoo is made of 4 sectors :</p>
+      <div id="sectors1"> 
+        <div id="sector1" class="center">
+            <p>Sector 1 : Aqualand</p>
+            <img src="img/aqualand.jpeg" class="img" alt="Mon image de test">
+            <p>This is the area where you can play with people and Zinzins in the pool !</p>
+            <p>Aqualand is a 1500m² aera where 50 Zinzins live. The maximal capacity is 200.</p>
+        </div>
+        <div id="sector2" class="center">
+            <p>Sector 2 : Attraction Zone</p>
+            <img src="img/attraction.jpg" class="img" alt="Mon image de test">
+            <p>This is the area where you can play with people and Zinzins in the pool !</p>
+            <p>Aqualand is a 1500m² aera where 50 Zinzins live. The maximal capacity is 200.</p>
+        </div>
+    </div>
+    <div id="sectors2">
+        <div id="sector3" class="center">
+            <p>Sector 3 : Memories Zone</p>
+            <img src="img/photo.webp" class="img" alt="Mon image de test">
+            <p>This is the area where you can play with people and Zinzins in the pool !</p>
+            <p>Aqualand is a 1500m² aera where 50 Zinzins live. The maximal capacity is 200.</p>
+        </div>
+        <div id="sector4" class="center">
+            <p>Sector 4 : Learning Zone</p>
+            <img src="img/learning.jpg" class="img" alt="Mon image de test">
+            <p>This is the area where you can play with people and Zinzins in the pool !</p>
+            <p>Aqualand is a 1500m² aera where 50 Zinzins live. The maximal capacity is 200.</p>
+        </div>
+    </div>
+      
+  </body>
+</html>
