@@ -16,10 +16,19 @@
                 <ul id="ulMenu">
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="formTicket.html">My Ticket</a></li>
+                    <li><a href="afficheListeTickets.php">Tickets</a></li>
                     <li><a href="http://localhost/wordpress">Cy Zoo</a></li>
                 </ul>
             </nav>
-            <a href="authentification.html"><button id="button">Connexion</button></a>
+            <?php
+            session_start();
+            if(isset($_SESSION["login"])){
+                echo("<a href=\"deconnexion.php\"><button id=\"button\">Log Out</button></a>");
+            }
+            else{
+                echo("<a href=\"authentification.html\"><button id=\"button\">Connexion</button></a>");
+            }
+            ?>
     </header>
 
     <!-- ******************** PHP MODIFICATIONS ********************  -->

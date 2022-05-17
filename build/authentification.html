@@ -23,17 +23,18 @@
 
      <!-- ******************** HEADER ********************  -->
 
-      <header style="display: flex;">
-            <img src="./img/logo.png" id="logo" alt="logo">
-            <nav id="navmenu">
-                <ul id="ulMenu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="formTicket.html">My Ticket</a></li>
-                    <li><a href="http://localhost/wordpress" >Cy Zoo</a></li>
-                </ul>
-            </nav>
-            <a href="authentification.html"><button id="button">Connexion</button></a>
-    </header>
+     <header style="display: flex;">
+        <img src="./img/logo.png" id="logo" alt="logo">
+        <nav id="navmenu">
+            <ul id="ulMenu">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="formTicket.html">My Ticket</a></li>
+                <li><a href="afficheListeTickets.php">Tickets</a></li>
+                <li><a href="http://localhost/wordpress">Cy Zoo</a></li>
+            </ul>
+        </nav>
+        <a href="authentification.html"><button id="button">Connexion</button></a>
+</header>
 
     <!-- ******************** AUTHENTIFICATION ********************  -->
 
@@ -55,7 +56,7 @@
         <li style="list-style-type: none;">
             <div class="centerRight">
                 <p style="text-align: center;font-size: 45px;">Sign In</p>
-                <form method="POST" action="inscriptions.php">
+                <form method="POST" action="inscription.php">
                 <label>Email</label>
                 <input id="email"type="email" name="email" class="form-control" placeholder="Enter your email">
                 <label>Password</label>
@@ -87,18 +88,26 @@
         });
     });
 
-    function fetchData(){
-        let email = $("#email").val();
-        let password = $("#password").val();
-        $.ajax("http://localhost/verification.php",//appel de index.php sur le serveur web
-                {
-                    type: "GET",
-                    data: "email=" + email + "&password=" + password,
-                    success: function (resultat) {
-                        $("#error").html(resultat);
-                        
-                    }
-                });
-    }
+
+    function connexion(){
+
+var username = $("#emailC").val().trim();
+var password = $("#passwordC").val().trim();
+
+if( username != "" && password != "" ){
+    $.ajax({
+        url:'http://localhost/build/verification.php',
+        type:'post',
+        data:{email:username,password:password},
+        success:function(response){
+            var msg = "";
+            if(response == 0){
+                msg = "Email ou mot de passe invalide";
+            }
+            $("#error").html(msg);
+        }
+    });
+}
+}
 </script>
 </html>
