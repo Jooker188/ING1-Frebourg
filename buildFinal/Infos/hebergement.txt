@@ -1,0 +1,5 @@
+Cy Zoo is hosted on my personal distant server (hostinger).
+
+I made a submain of my site, and hosted Cy Zoo on it.
+
+Then I installed the SSL certificat myself using SSLZero.
