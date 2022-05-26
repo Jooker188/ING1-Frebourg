@@ -1,0 +1,123 @@
+/* ******************** BODY STYLE ******************** */
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
+
+body{
+    margin : 0;
+    background-color: #50358c;
+    color: white;
+    font-family: 'Blinker', sans-serif;
+    font-size : 18px;
+}
+
+/* ******************** HEADER STYLE ******************** */
+
+header,footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+}
+
+li, a, button{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#logo{
+    width: 8%;
+}
+
+#ulMenu{
+    list-style: none;
+}
+
+#ulMenu li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-top: 5%;
+}
+
+#ulMenu li a:hover{
+    text-decoration: none;
+}
+
+#ulMenu li a{
+    transition: all 0.3s ease 0s;
+}
+
+#ulMenu li a:hover{
+    color: #f99e35;
+}
+
+#button{
+    padding: 9px 25px;
+    background-color: #f99e35 ;
+    border: 2px solid #1f5733 !important;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    font-family: inherit;
+}
+
+#button:hover{
+    background-color: black;
+    border-color:#f99e35!important;
+}
+
+.active{
+    color: #f99e35;
+}
+
+
+/* ******************** FOOTER STYLE ******************** */
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+#footerMenu{
+    list-style: none;
+    display : flex;
+}
+
+#footerMenu li{
+    font-size:20px;
+}
+
+.li{
+    margin-top:5%;
+}
+
+#rd{
+    color : orange;
+}
+
+#rd:hover{
+    color: white;
+    text-decoration:none;
+}
+
+
+/* ******************** GLOBAL STYLE ******************** */
+
+
+.center{
+    text-align:center;
+}
+
+.good{
+    font-size:20px;
+    color:green;
+}
+
+.error{
+    font-size:20px;
+    color:red;
+}
+
