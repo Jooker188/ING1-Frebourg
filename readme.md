@@ -11,3 +11,9 @@ Cy Tech ING1 Web Project
 
 ### Features
 ###### buildFinal/Infos/features.pdf
+
+### Author
+
+###### Rémy Dionisio
+
+
