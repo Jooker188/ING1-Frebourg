@@ -10,7 +10,7 @@ Cy Tech ING1 Web Project
 ###### Password : Je$uis1superprof
 
 ### Features
-###### buildFinal/Infos/features.pdf
+###### ING1-Frebourg/buildFinal/Infos/features.pdf
 
 ### Author
 
