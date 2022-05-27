@@ -5,7 +5,10 @@ require_once("bddConnexion.php");
 try{
     
     $sql = "INSERT INTO ticket (id,datet,login,subject,description,priority,sector,status) VALUES (NULL,:datet,:login,:subject,:description,:priority,:sector,:status)";
+<<<<<<< HEAD
     
+=======
+>>>>>>> ad897901f6a43a017e69f2c498cfba693ca6e534
     $data = $bdd->prepare($sql);
     
     $date = date('Y-m-d H:i:s');
