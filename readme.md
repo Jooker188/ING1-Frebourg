@@ -1,4 +1,4 @@
-# Cy Zoo, the only Zoo made of "Zinzins de l'espace"
+# Cy Zoo : the first Zoo made of "Zinzins de l'espace"
 
 Cy Tech Web Project by Rémy Dionisio
 
