@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="../style/formTicket.css">
     <link rel="stylesheet" href="../style/globalStyle.css">
     
@@ -66,10 +67,10 @@
                 <label for="sector">Zoo Sector</label>
                 <div class="form-group">
                     <select name="sector" id="" name="sector">
-                        <option value="Aqualand">Aqualand</option>
-                        <option value="Attraction">Attraction</option>
-                        <option value="Memories">Memories</option>
-                        <option value="Learning">Learning</option>
+                        <option value="Bud">Pool Party</option>
+                        <option value="Gorgeous">Attraction</option>
+                        <option value="Candy">Cook</option>
+                        <option value="Etno">Learning</option>
                     </select>
                </div>
             </div>

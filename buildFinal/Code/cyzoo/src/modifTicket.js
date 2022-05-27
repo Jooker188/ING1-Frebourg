@@ -12,9 +12,10 @@ function changeStatusTicket(){
                         var msg = "";
                 
                         if(response == 1){
-                            msg = "Id doesn\'t exist or status already modified !";
+                            msg = "Ticket doesn\'t exist or status already modified !";
                             $("#refresh").attr("class","error");
-                        }else{
+                        }
+                        else{
                             $("#"+id).html(status);
                             msg = "Successful Operation !";
                             $("#refresh").attr("class","good");

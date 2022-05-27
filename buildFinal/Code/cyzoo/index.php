@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Welcome</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     
     <link rel="stylesheet" href="../style/home.css">
     <link rel="stylesheet" href="../style/globalStyle.css">

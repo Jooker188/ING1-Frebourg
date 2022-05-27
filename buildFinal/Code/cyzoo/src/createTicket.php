@@ -5,7 +5,8 @@ require_once("bddConnexion.php");
 try{
     
     $sql = "INSERT INTO ticket (id,datet,login,subject,description,priority,sector,status) VALUES (NULL,:datet,:login,:subject,:description,:priority,:sector,:status)";
-    $data = $connection->prepare($sql);
+    
+    $data = $bdd->prepare($sql);
     
     $date = date('Y-m-d H:i:s');
     
@@ -18,6 +19,7 @@ try{
     $data->bindParam(":status", $_POST["status"]);
     
     $data->execute();
+
     header("Location: /src/afficheListeTickets.php");
 }
 catch(PDOException $e){
