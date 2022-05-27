@@ -1,13 +1,13 @@
 # Cy Zoo, the only Zoo made of "Zinzins de l'espace"
 
-Cy Tech ING1 Web Project
+Cy Tech Web Project by Rémy Dionisio
 
  ## Website Link
  ###### https://cyzoo.remydionisio.fr
 
 ## Test Admin Account 
-###### Login : romualdgrignon@cy-tech.fr
-###### Password : Je$uis1superprof
+* Login : romualdgrignon@cy-tech.fr
+* Password : Je$uis1superprof
 
 ## Features
 ###### ING1-Frebourg/buildFinal/Infos/features.pdf
