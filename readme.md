@@ -2,18 +2,24 @@
 
 Cy Tech ING1 Web Project
 
- ## Website available
- ###### cyzoo.remydionisio.fr
+ ## Website Link
+ ###### https://cyzoo.remydionisio.fr
 
-### Admin Account 
+## Test Admin Account 
 ###### Login : romualdgrignon@cy-tech.fr
 ###### Password : Je$uis1superprof
 
-### Features
+## Features
 ###### ING1-Frebourg/buildFinal/Infos/features.pdf
 
-### Author
+## Author
 
-###### Rémy Dionisio
+| Platform | Link |
+| --- | --- |
+| Portfolio | https://remydionisio.fr |
+| Linkedin | https://linkedin.com/in/remy-dionisio/ |
+| GitHub | https://github.com/Jooker188 |
+| Mail | remydionisio@outlook.fr |
+
 
 
