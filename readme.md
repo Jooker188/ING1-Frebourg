@@ -1,5 +1,7 @@
 # Cy Zoo : the first Zoo made of "Zinzins de l'espace"
 
+![text](https://remydionisio.fr/cyzoo/img/miniLogo.png)
+
 Cy Tech Web Project by Rémy Dionisio
 
  ## Website Link
